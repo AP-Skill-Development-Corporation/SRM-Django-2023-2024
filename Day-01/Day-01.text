@@ -1,0 +1,129 @@
+Day-01[19-06-2023]:
+===================
+	Good Afternoon All.
+
+	Thanks For Participating in APSSDC Internship Program on Django Framework
+
+	Try to rename your names in the given format
+		Rollnumber-name
+		Try to follow this procedure for attendace consideration
+		Dont use |,(),[] in the format
+
+	=> Tasks Will be there for each day.
+	=> Attendance should not be less than 90%.
+	=> Each Day it will be 2 hours session.
+	=> At end of Internship need to submit a Project based on  All concepts in Django.
+
+	Python:
+	=======
+	Variables,Operators,Input and Output Formatting,Data types,Typecasting,Keywords,Conditional Statements,Control Statements,Jumping Statements,Inner Loops,Data Structures,Function Types,Function Argument Types,Packages and Modules,Files Concept,Functional Programming,Comprehensions
+
+	OOPS:
+	====
+	Clas,Object,Method,Constructor types,Inheritance Types [Single,Multi Level], Packages and Modules by using OOPS concepts
+
+	Python:
+	=======
+	How to download the python software
+	How to install the python and configure
+
+	Python Download::
+	=================
+		- Browser
+		- https://python.org [Official site to download the python software]
+		- Download
+			- Windows
+			- 2 columns
+				=> Stable => Completely Developed [User Access]
+				=> Pre-Release => [Not Developed Completely] [Developer] 
+		- Particular Version
+			=> cntrl + f => Search
+			=> Python 3.X
+		- Check the Os bit in your local machine
+			Windows => Executable installer file
+				-> 64 bit 
+				-> 32 bit
+					- help file
+					- embedded Zip file
+					- executeable installer => xxxxx
+					- web based installer
+		- We need to tap on the file then it will automatically downloads into local machine
+
+	Python Installation:
+	====================
+		- After Downloading the software we need to double tap on it and it displays a window with user permissions
+		- It displays 2 options and 2 check boxes
+			2 options
+				- install now [Default path]
+					c:/users/username/AppData/Local/Programs/Python/Python37/ => Python installation Path
+				- customize installation [User path Location]
+					D:/
+			2 Checkboxes
+				- Install for All users
+				- Add Python 3.x to path [X] 
+					python path => Execute .py files
+					script path => To isntall third party packages
+						=> Django,Nupy,Pandas,Jupyter notebook etc.,
+		- We Need to click on the install now and select the 2 checkboxes for all users access and add python to environment variables
+		- After clicking on install now the install weill be done with a window such as "Successfully installed"
+
+	Python Version check:
+	=====================
+		- cmd
+		- command
+			=> python -V
+			=> Python 3.7 => Local Machine
+
+	Python Issues:
+	==============
+		
+		"Python is not recognized an internal or external command error"
+
+		- Python is not installed in your machine
+		- Multiple version are installed in your machine
+		- Python path is not set in your machine
+		- Anaconda [Multiple Python Versions]
+
+	Procedures to Execute a Python File:
+	====================================
+		- Basic Procedure
+			- Notepad 
+			- Interpreter
+		- Advanced Editors
+			- Geany,Editplus,Atom,Sublime,Notepad++ etc.,
+			- Interpreter
+		- IDLE
+			-> Editor + Interpreter
+		- Jupyter notebook
+			Literate Programming
+				=> Documentation 
+				=> Coding
+
+
+	Basic Procedure:
+	================
+		-> Create a Folder and save a file with extension .py to it
+		-> Open the path location by using command prompt
+		-> Code some lines in it and try to execute
+		-> For execution we need to type a command like
+			=> python filename.py
+			=> filename.py 
+		-> It will displays an output in command prompt
+
+	Advanced Editor:
+	================
+		-> Geany + Interpreter
+		-> Here We can save the file in user selected folder locations
+		-> Shortcuts are used to compile or interpret the program
+		-> Output in Command Prompt
+
+	IDE => [Integrated Learning Environment] 
+	IDLE => [Integrated Development for Learning Environment]
+	=====
+		-> We can use temporary access of python code
+		-> We can store the data permanently 
+
+	
+	3.7.5
+	mysql-client => driver
+	Admin page => 
