@@ -1,0 +1,114 @@
+Day-02[20-06-2023]:
+===================
+	Good Afternoon All..
+
+	Telegram Link: https://t.me/srminternship2023
+
+	Try to rename your names in the given format i.e.,
+		Rollnumber-name
+		- Dont use any spaces between the roll number and name
+		- Try to use this format only dont use ,[],() etc.,
+
+	Yesterdays Concept:
+	===================
+		- Python Downloads,Installation and Configuration of it.
+		- Procedures to execute Python Programs
+		- Basic and Advanced Procedure Explanation is Completed with sample example on each
+
+	Todays Concept:
+	===============
+		IDLE
+		====
+			- Window => idle
+			- It displays menu items fro shell and a file that is created from a shell
+			- It supports Interactive and script modes to execute python code
+			- Previous lines of code can be accessed while using the shortcut as
+				=> alt + enter or => enter
+				=> It will displays the dat to present shell line to modify it.
+			- Previous varaible values are cleared when script mode is to be used by a user
+
+
+		Jupyter Notebook Installation:
+		==============================
+			Python Version Check:
+			=====================
+				- cmd
+				- python -V
+
+			Pip:
+			====
+				- To install third party packages like django,flask,pandas,numpy etc.,
+				- Syntax:
+					=> pip install <packagename>
+
+			Pip Version Check:
+			==================
+				- cmd
+				- pip -V
+
+			Pip Ugrade:
+			===========
+				- cmd
+				- python -m pip install --upgrade pip
+
+			Jupyter Notebook Installation:			==============================
+				- pip install jupyter notebook
+
+			Jupyter Notebook Running:
+			=========================
+				- Default Location
+					=> cmd
+					=> jupyter notebook
+					=> Mydocuments
+						=> User selected folder
+				- User Defined Location
+					=> We need to select the folder first and try to open that location in command prommpt
+					=> jupyter notebook
+
+			Jupyter Notebook:
+			=================
+				- Literate Programming [Documentation + Coding]
+				- .ipynb
+					i => Interactive
+					py => Python
+					nb => Notebook
+				- Online
+					=> Gmail
+					=> google Colab
+						=> Colaboratory
+					=> Code format and markdown format
+
+			IDLE => 1 - 100 => 20Mb
+				=> We cant search the file easily in a folder structure
+				=> Datavisualisation will be difficult to display in shell
+
+
+			Jnb => 1 => ipynb => 5Mb
+				=> content => store
+				=> We can search the particular program easily while using the search of a browser
+				=> Data visualisation will be displayed by using browser
+
+			Jupyter Notebook:
+			=================
+				- 2 Formats
+					=> Code => [Python Program Executions]
+					=> Markdown => [For Documentation Purpose]
+				- 2 modes
+					=> Edit => Green Color => To Type Something on the cell
+					=> command => Blue Color => To use shortcuts that is to be performed for a cell
+				=> For Code and Markdown it works in 2 modes
+
+			Shortcuts in Jupyter Notebook:
+			==============================
+				-> To change from Code to markdown
+					=> esc + m
+				-> To change from Markdown to Code
+					=> esc + y
+				-> To delete a present cell
+					=> esc + d d
+				-> Execute present cell
+					=> cntrl + enter
+				-> run cell and select below
+					=> shift + enter
+				-> run cell and insert below
+					=> alt + enter
