@@ -1,0 +1,45 @@
+Day-03[21-06-2023]:
+===================
+	Good Afternoon All.
+	Try to rename your names in given format i.e.,
+		Rollnumber-name
+
+
+	Yesterdays Concept:
+	===================
+		- Difference between IDLE and Command prompt Execution ways
+		- temporary => Interactive mode
+		- Pip Version check,Upgrade of pip
+		- Jupyter Notebook installation, Running of it and Overview of 
+
+	Today Concepts:
+	===============
+
+	Jupyter notebook:
+	=================
+		- 1 cell => 1 program
+		- .ipynb file
+	
+	: Variable :
+	============
+	Varible assignments:
+	====================
+		- single variable = single value
+		- n number of variables = n number of values
+		- n number of variables to single value
+
+	Static Programming:
+	==================
+		a = 45
+		n number of students try to execute this program => 1 output
+	Dynamic Programming:
+	==================== 
+		d = input()
+		n number of students = n number of outputs
+
+	Data Types
+	Typecasting
+	Input and Output Formatting
+	Operators
+	Keywords
+
