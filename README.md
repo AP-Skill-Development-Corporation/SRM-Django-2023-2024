@@ -13,6 +13,6 @@ SRM Internship
 
 # Day-03(21-06-2023):
   - Python Basics like Variables,Assignment of it
-  - Data types,Input and Output Formatting with sample examples on it
+  - Data types,type function,Input and Output Formatting with sample examples on it
   - Typecasting, Keywords and Operators
   - Recorded Video Link [Click Here]()
