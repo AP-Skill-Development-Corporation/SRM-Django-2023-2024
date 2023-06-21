@@ -10,9 +10,10 @@ SRM Internship
   - IDLE and Command Prompt Execution Difference
   - Pip version check and upgrade,Jupyter Notebook Installation
   - Running of Jupyter Notebook, Overview of it
+  - Recorded Video Link:[Click Here](https://drive.google.com/file/d/1m27lxYoB-u1oj5-9XSfVsBGrKa--FUv0/view?usp=sharing)
 
 # Day-03(21-06-2023):
   - Python Basics like Variables,Assignment of it
   - Data types,type function,Input and Output Formatting with sample examples on it
   - Typecasting, Keywords and Operators
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1KOkABuLziGe6Xe7l7KD7n3C7alIdLPGu/view?usp=sharing)
+  - Recorded Video Link:[Click Here](https://drive.google.com/file/d/1KOkABuLziGe6Xe7l7KD7n3C7alIdLPGu/view?usp=sharing)
