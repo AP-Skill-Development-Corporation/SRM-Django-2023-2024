@@ -15,4 +15,4 @@ SRM Internship
   - Python Basics like Variables,Assignment of it
   - Data types,type function,Input and Output Formatting with sample examples on it
   - Typecasting, Keywords and Operators
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1KOkABuLziGe6Xe7l7KD7n3C7alIdLPGu/view?usp=sharing)
