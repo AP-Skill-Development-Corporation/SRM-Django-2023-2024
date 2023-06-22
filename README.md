@@ -18,3 +18,9 @@ SRM Internship
   - Data types,type function,Input and Output Formatting with sample examples on it
   - Typecasting, Keywords and Operators
   - Recorded Video Link: [Click Here](https://drive.google.com/file/d/1KOkABuLziGe6Xe7l7KD7n3C7alIdLPGu/view?usp=sharing)
+
+# Day-04(22-06-2023):
+  - Conditional Statments like if,if-else,nested if and elif withh sample example on each
+  - Loops Overview,range Overview, range with single,two or three parameters overview
+  - range with single parameter example
+  - Recorded Video Link [Click Here]()
