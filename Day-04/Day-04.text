@@ -1,0 +1,30 @@
+Day-04[22-06-2023]:
+===================
+	Good Afternoon All.
+	Try to rename your names in given format i.e.,
+		Rollnumber-name
+
+	If you are not following the format then you will be considered as absent for entire session i.e, for today. It will repeat for remaining days also.
+
+	Internship you need to register for one program
+	=> Completion of Payment for some students it will redirect success mails and for some it wont redirect.
+	=> Double payments => development to resolve your issues
+
+	Yesterdays Concept:
+	===================
+		- Varibles and its Assignments
+		- Data types,type function and typecasting
+		- Input[dynamic] and Output formatting
+		- Operators and Keywords
+		
+		Task:
+		=====
+			=> Markdown format
+				=> heading,quorting text,quoting code,styling text,lists, etc.,
+
+	Todays Concept:
+	===============
+		- Conditional Statements like if,if-else,neseted if,elif with sample example on each
+		- Loops,range Overview
+		- range with single,two or three parameters
+		- completed with single parameter in forward and backward procedures
