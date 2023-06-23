@@ -1,0 +1,20 @@
+Day-05[23-06-2023]:
+===================
+	Good Afternoon All..
+
+	Try to rename your names in the given format i.e.,
+		RollNumber-name
+		
+		=> If you are not following in the given format you will be considered as absent for entire session.
+
+	Yesterdays Concept:
+	===================
+		- Conditional Statements like if,if-else,nested if and elif with sample on each
+		- Loops and range Overview, range with single parameter with sample example
+
+	Todays Concept:
+	===============
+		- for with tow and three parameters 
+		- while overview with sample example on it
+		- Jumping Statements like break,continue and pass with sampel example on each
+		- Inner Loops with sample example
