@@ -31,3 +31,9 @@ SRM Internship
   - Jumping statements like break,continue and pass with sample example on it
   - Inner Loops Overview with sample example
   - Recorded Video Link [Click Here]()
+
+# Day-06(24-06-2023):
+  - Inner Loop example
+  - Data Structures Overview
+  - List,Tuple Overview and explained the methods with sample exampels on each
+  - Recorded Video Link [Click Here]()
