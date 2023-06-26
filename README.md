@@ -37,3 +37,8 @@ SRM Internship
   - Data Structures Overview
   - List,Tuple Overview and explained the methods with sample exampels on each
   - Recorded Video Link [Click Here]()
+
+# Day-07(26-06-2023):
+  - Dictionary and set Overview explainedd their methods with sample exampels on each
+  - String Overview
+  - Recorded Video Link [Click Here]()
