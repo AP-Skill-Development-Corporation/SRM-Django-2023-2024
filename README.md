@@ -42,3 +42,7 @@ SRM Internship
   - Dictionary and set Overview explainedd their methods with sample exampels on each
   - String Overview
   - Recorded Video Link [Click Here]()
+
+# Day-08(27-06-2023):
+  - String Overview and explained their methods with sample examples on each
+  - Recorded Video Link [Click Here]()
