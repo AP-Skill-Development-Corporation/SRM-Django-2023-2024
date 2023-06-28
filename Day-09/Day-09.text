@@ -1,0 +1,20 @@
+Day-09[28-06-2023]:
+===================
+	Good Afternoon All...
+
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+
+	Yesterdays Concept:
+	===================
+		- String Overview and explained their methods with sample example on each
+
+	Todays Concept:
+	===============
+		- Functions and its types
+		- User Defined Function Types
+		- Function argument types
