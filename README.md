@@ -46,3 +46,9 @@ SRM Internship
 # Day-08(27-06-2023):
   - String Overview and explained their methods with sample examples on each
   - Recorded Video Link [Click Here]()
+
+# Day-09(28-06-2023):
+  - Function Overview and types
+  - User Defined Function types with sample examples on each
+  - Function argument types like default,keyword and required with sample examples on each
+  - Recorded Video Link [Click Here]()
