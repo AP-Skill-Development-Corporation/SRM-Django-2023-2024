@@ -1,0 +1,24 @@
+Day-10[30-06-2023]:
+===================
+	Good Afternoon All...
+
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+
+	Previous Day Concept:
+	====================
+		- Function types
+		- User Defined Function Types
+		- Function argument types
+		- Default,keyword and required arguments with sample examples on each
+	
+	Todays Concept:
+	===============
+		- Variable Length Argument
+		- Packages and Modules
+		- Different ways on importing a module or else a sub-package or a package
+		- Accessing of variable and Function by using Packages and modules with sample example on each
