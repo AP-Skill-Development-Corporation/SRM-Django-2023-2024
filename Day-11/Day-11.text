@@ -1,0 +1,21 @@
+Day-11[01-07-2023]:
+===================
+	Good Afternoon All...
+
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+
+	Yesterday Concept:
+	==================
+		- Variable Length argument with sample example
+		- Packages and Modules
+		- Access variable,function by using import from package and module
+
+	Todays Concept:
+	===============
+		- Files concept with sampe examples on it
+		
