@@ -52,3 +52,6 @@ SRM Internship
 # Day-11(01-07-2023):
   - Files concept with sample example on different modes
   - Recorded Video Link[Click Here]()
+# Day-12(03-07-2023):
+  - Task Check on Contact Application
+  - Recorded Video Link[Click Here]()
