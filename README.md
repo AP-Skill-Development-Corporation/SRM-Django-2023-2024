@@ -57,3 +57,7 @@ SRM Internship
   - Recorded Video Link[Click Here]()
 # Day-13(04-07-2023):
   - Task Checking on Contact Application and Attendance 
+# Day-14(05-07-2023):
+  - Task Checking on Contact Application and Attendance
+  - Student Explained the Contact Application by using files and Functions
+  - Recorded Video Link [Click Here]()
