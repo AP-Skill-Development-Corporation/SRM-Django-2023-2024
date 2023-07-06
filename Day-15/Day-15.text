@@ -1,0 +1,69 @@
+Day-15[06-07-2023]:
+===================
+	Good Afternoon All...
+
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yeaterday Concept:
+	==================
+		- Task Checked on Contact Application and Attendance
+		- Student Completed explaining on Contact Application by using Files and Functions Concept
+
+	Todays Concept:
+	===============
+		- Downloading of Db Browser
+			=> chrome => db browser for sqlite3
+			=> Downloads
+				=> standard installer for 32 or 64 bit
+			=> downloads the file
+		- Installation:
+			=> installer
+			=> license => check
+			=> 2 columns
+				=> sqlite,cipher
+					=> Desktop option, program menu => check
+			=> path => next
+			=> install
+			=> finish
+
+
+		Creating a database:
+		====================
+			=> new database
+			=> select the location where we need to store our database
+			=> File name => user defined file name
+			=> default extension will be .db
+
+		Creating a Table:
+		=================
+			=>  We need to click on create table option
+				=> we need to mention the table name i.e., user defined
+			=> We need to create fields
+				=> based user requirement we can decided it
+				=> rno => text => unique values => primary key
+				=> sname => text 
+				=> syear => integer
+				=> sbranch => text
+			=> database
+				=> rows => record
+				=> column => fields
+
+		Creating a record:
+		=================
+			=> import sqlite3
+			=> We need to read a data from a user
+			=> We need to connect to database
+				=> c = sqlite3.connect("databasename.db")
+			=> We need to use query to insert the data
+				=> q = "insert into tablename(fieldname1,fieldname2,....) values (?,?,?,?)
+			=> we need to execute that query
+				=> c.execute(q,(fieldvalue1,fieldvalue2.....))
+				=> c.commit()
+			=> It saves the data in database within a table with their fields
+
+
+
