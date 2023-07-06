@@ -61,3 +61,10 @@ SRM Internship
   - Task Checking on Contact Application and Attendance
   - Student Explained the Contact Application by using files and Functions
   - Recorded Video Link [Click Here]()
+# Day-15(06-07-2023):
+  - Comprehensions like list,set and dictionary with sample example on each
+  - Iterator and Generator with sample example on it
+  - Db browser installation and configurations
+  - Creating database and table with fields in db browser
+  - Completed insertion with dynamic data to a database by using db browser
+  - Recorded Video Link [Click Here]()
