@@ -1,0 +1,58 @@
+Day-16[07-07-2023]:
+===================
+	Good Afternoon All...
+
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+		Django Prerequisities:
+		=====================
+			- HTML5
+			- CSS3
+			- Bootstrap 4 or Bootstrap 5
+
+		Reference:
+			W3schools
+				=> html5,css3,javascript,bootstrap 4 or bootstrap 5
+
+	Yesterday Concept:
+	==================
+		- comprehension
+		- Iterators,Generators
+		- Downloads and installation of db browser
+		- Database,table and Field creation by using sqlite3
+		- Insertion of a record by using python code
+
+	Todays Concept:
+	===============
+		- For retieving all records
+			=> "select * from tablename"
+			=> variable = connection.execute(query).fetchall()
+			=> variable
+			 => loop => each field values will be displayed 
+		- For single record
+			=> value => id,roll
+			=> select * from tablename where fieldname = value
+			=> variable = connection.execute(query,(fieldvalue,))
+			=> variable.fetchone()
+
+		- CRUD Operations
+			=> C -> Create => insert
+			=> R -> Reading => fetchone,fetchall
+			=> U -> Update => update,single field,all fields
+			=> D -> Delete => delete,single record,all records
+		- "update tablename set fieldname1=?, fieldname2=? where fieldname=?"
+		- conection.execute(query,(value1,value2,rval))
+		- conection.commit()
+		- for single record
+			- delete from tablename where fieldname=value
+		- for all records
+			- delete from tablename
+
+		
+		Try to connect for this meeting once.
+
+			https://zoom.us/j/97682618166?pwd=TkNvUHBYWEoyNTVHenZ4RTVwQ1V6UT09
