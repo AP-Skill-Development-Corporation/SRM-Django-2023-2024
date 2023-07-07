@@ -66,5 +66,10 @@ SRM Internship
   - Iterator and Generator with sample example on it
   - Db browser installation and configurations
   - Creating database and table with fields in db browser
-  - Completed insertion with dynamic data to a database by using db browser
+  - Completed insertion with dynamic data to a database by using sqlite3
+  - Recorded Video Link [Click Here]()
+# Day-16(07-07-2023):
+  - Reading a single and multiple records in a table
+  - Updating a single field value or number of field values in a table
+  - Deleting a single or n number of records in a table by using sqlite3
   - Recorded Video Link [Click Here]()
