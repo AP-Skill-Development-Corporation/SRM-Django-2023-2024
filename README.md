@@ -73,3 +73,8 @@ SRM Internship
   - Updating a single field value or number of field values in a table
   - Deleting a single or n number of records in a table by using sqlite3
   - Recorded Video Link [Click Here]()
+# Day-17(08-07-2023):
+  - OOPS Concept Overview
+  - Class,Object,Method and Constructor types
+  - Inheritance types with sample example on each
+  - Recorded Video Link [Click Here]()
