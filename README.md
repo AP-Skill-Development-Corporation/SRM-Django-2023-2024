@@ -48,13 +48,13 @@ SRM Internship
   - Variable Length Argument with sample example on it
   - Packages and Modules
   - Different ways of importing module,subpackage or package
-  - Recorded Video Link[Click Here]() 
+  - Recorded Video Link [Click Here]() 
 # Day-11(01-07-2023):
   - Files concept with sample example on different modes
-  - Recorded Video Link[Click Here]()
+  - Recorded Video Link [Click Here]()
 # Day-12(03-07-2023):
   - Task Check on Contact Application
-  - Recorded Video Link[Click Here]()
+  - Recorded Video Link [Click Here]()
 # Day-13(04-07-2023):
   - Task Checking on Contact Application and Attendance 
 # Day-14(05-07-2023):
@@ -78,3 +78,9 @@ SRM Internship
   - Class,Object,Method and Constructor types
   - Inheritance types with sample example on each
   - Recorded Video Link [Click Here]()
+# Day-18(10-07-2023):
+  - Django installation,Version check
+  - Project Creation and Overview of files in it and execution of project
+  - App Creation and Overview of files in it
+  - Recorded Video Link [Click Here]()
+()
