@@ -1,0 +1,168 @@
+Day-18[10-07-2023]:
+===================
+	Good Afternoon All...
+
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Previous Day Concept:
+	=====================
+		- OOPS concepts like class,method,object,inheritance types,constructor types
+		- OOPS by using packages and modules
+
+	Today Concept:
+	==============
+		
+		Frameworks in Python:
+		=====================
+			- Cherrypy
+			- bottle
+			- web2py
+			- flask
+			- Django
+
+		Sqlite3
+		 - CRUD Operations
+		 - command we had done
+
+		Front End [Visible to a User]:
+		==============================
+			- html5 => structure
+			- css3 => for styling
+			- javascript => validation
+
+			- Bootstrap 4
+
+		Back End [Not Visible Directly to a user]:
+		==========================================
+			- Php => larvel
+			- java => springboot
+			- .net => ?
+			- py => Django
+
+		Databases:
+		==========
+			- sqlite3
+			- Mysql
+			- Postresql
+			- No sql
+			- Mongo db
+
+		html => .py => sqlite3
+
+		Django Framework:
+		=================
+
+		User defined => Logic
+		Buitlin => Logic is implemented => framework
+
+		Django Installation:
+		====================
+		- check Python and Pip Version
+			Checking Python
+			---------------
+				- cmd
+				- python -V
+			Checking Pip:
+			-------------
+				- cmd
+				- pip -V
+		- pip install django==3.0
+			- pip install django [Latest Version of Django]
+
+		Django Version check:
+		=====================
+			- cmd
+			- django-admin --version
+
+		=> 3.0 => in settings [os.path.join(BASE_DIR,'')]
+		=> 3.2 => [BASE_DIR / '']
+		=> 4.0 => [BASE_DIR / '']
+
+		Building
+			- Land
+			- sand,bricks,cement,iron
+
+		Apartment
+			- Builted
+
+		Creation of Project:
+		====================
+			- Choose a location in local machine where you need to create a project
+			- Open command prompt from a location where we needt o create a project
+			- Command for Creating project
+				=> django-admin startproject "Project name"
+			- Project is created with some project name
+			- Inside of project we can obserrve the same project name folder
+				=> This fodler will be considered as "Admin App"
+			Ex:
+			   django-admin startproject DemoProject
+			   => DemoProject => [Project Folder]
+			   	=> DemoProject => [Admin App]
+			   	=> manage.py => service file to run a project
+		
+		Execution of Project:
+		======================
+			- Navigate to the path where manage.py file is existing through command prompt
+			- cmd
+				=> manage.py runserver
+				=> python manage.py runserver
+				=> py manage.py runserver
+			- Try to open browser and type the ip address existing in command prompt
+				=> localhost = 127.0.0.1
+				=> Default port Number for Django is 8000
+			- localhost:8000 or 127.0.0.1:8000
+			- We can observe the project is running Finne with default settings
+
+		Admin App Folder Overview:
+		==========================
+			- init => It will be considered as python file
+			- asgi => Asynchronoud Gate Way Interface [Project deployment] 
+			- wsgi => Web server Gateway Interface [Project Deployment]
+			- urls => To check the url name is existing in the project or not
+			- settings => All configurations [app,css,html,audio,video,email,images]
+
+		Stopping of Server:
+		===================
+			- cmd
+			- cntrl + c [Exits from server]
+
+		Port Number Blocked:
+		====================
+			- cmd
+			- py manage.py runserver portnumber
+				=> py manage.py runserver 1234
+				=> 127.0.0.1:1234
+					=> localhost:1234
+
+		UserApp Creation:
+		=================
+			- cmd
+			- py manage.py startapp "appname"
+				- py manage.py startapp DemoApp
+
+		UserApp Overview:
+		=================
+			- init => It will be considered as python file
+			- admin => For user table access we are giving permissions to admin
+			- apps => App configurations are done here
+			- models => For table,field creation we need to code in models [Database]
+			- test => unit testing,blackbox testing
+			- views => We are trying to implement a logic
+
+		After Creation of Userapp we need to configure the app name in settings.py file
+
+		path:
+			path('urlname/',modulename.functionname,name="nameofurl")
+
+
+
+
+
+
+
+
+
