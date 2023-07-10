@@ -48,31 +48,31 @@ SRM Internship
   - Variable Length Argument with sample example on it
   - Packages and Modules
   - Different ways of importing module,subpackage or package
-  - Recorded Video Link [Click Here]() 
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1sO2uRQNefT-AYqF7Vy3onWcCCL3KuLp0?usp=sharing) 
 # Day-11(01-07-2023):
   - Files concept with sample example on different modes
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/13K1btefJdf7kI-2gFrIY1j0KZU3KMgwi?usp=sharing)
 # Day-12(03-07-2023):
   - Task Check on Contact Application
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1HGSDT6iX__cSCQr-YRgQIbXwzL5RNyUK?usp=sharing)
 # Day-13(04-07-2023):
   - Task Checking on Contact Application and Attendance 
 # Day-14(05-07-2023):
   - Task Checking on Contact Application and Attendance
   - Student Explained the Contact Application by using files and Functions
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/1UheKTTPGMwX12oSoqiNTMNMr8AKJMHPQ?usp=sharing)
 # Day-15(06-07-2023):
   - Comprehensions like list,set and dictionary with sample example on each
   - Iterator and Generator with sample example on it
   - Db browser installation and configurations
   - Creating database and table with fields in db browser
   - Completed insertion with dynamic data to a database by using sqlite3
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/10L4WHo2T29BYA1KdIou3VxEQgtFTQVMB?usp=sharing)
 # Day-16(07-07-2023):
   - Reading a single and multiple records in a table
   - Updating a single field value or number of field values in a table
   - Deleting a single or n number of records in a table by using sqlite3
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/drive/folders/15QjHP1dQMAI5zdh6S_6No_JFxqZInhU1?usp=sharing)
 # Day-17(08-07-2023):
   - OOPS Concept Overview
   - Class,Object,Method and Constructor types
@@ -82,5 +82,4 @@ SRM Internship
   - Django installation,Version check
   - Project Creation and Overview of files in it and execution of project
   - App Creation and Overview of files in it
-  - Recorded Video Link [Click Here]()
-()
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/14jmwxqGjPlZixp4TwRRbsAz0u-UD-qkI/view?usp=sharing)
