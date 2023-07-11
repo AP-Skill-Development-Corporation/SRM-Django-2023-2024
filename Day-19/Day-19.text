@@ -1,0 +1,94 @@
+Day-19[11-07-2023]:
+===================
+	Good Afternoon All...
+	https://forms.gle/T3BL3Ke7E8v48GSQA
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concept:
+	==================
+		- Django Installation,Version check
+		- Project Creation and Overview of files in it
+		- App Creation and Overview of files in it
+		- Project Execution
+
+	Todays Concept:
+	===============
+		- Dynamic Url Mapping:
+		======================
+			- pass n number of values in a url of a browser
+
+		url => views => browser
+
+		HttpResponse => string data
+		HttpResponse => string data with html tags
+		HttpResponse => string data html tags and CSS
+		HttpResponse => string data with javascript
+
+		HTML Tags:
+		==========
+			heading tags => h1 - h6
+
+		Structure of HTML
+		=================
+		<html>
+			<head>
+				<title> </title>
+				<links> => css [Cascading Style sheet]
+				<script>
+					function []
+				</script> 
+			</head>
+			<body>
+				<div></div>
+				<p></p>
+			</body>
+		</html>
+
+		HTML5 Structure:
+		================
+		<!Doctype type="">
+		<html>
+			<head>
+				<title> </title>
+				<meta >
+				<links> => css [Cascading Style sheet]
+				<script>
+					function []
+				</script> 
+			</head>
+			<body>
+				<div></div>
+				<p></p>
+			</body>
+		</html>		
+
+		tags => element
+
+		Blocked elements => It will displays the content in next line
+			=> div,p,heading
+		Inline elements => it will displays the content in singe line
+			=> span,i,img,a
+
+		url=> urlname/tarun/
+
+			Welcome user tarun
+			 => text => red
+
+		CSS3:
+		====
+			- Inline => inside of tags => style
+			- Internal => include inside of head tag => style => css
+			- External styling => link => .css => tag => style
+
+		To access .html or .css, .jpg, .mp3,
+
+		render():
+		=========
+			- render(self,'.html file location',{'key':value})
+
+		url => views => html 
+		url => views => .html [html tags]
