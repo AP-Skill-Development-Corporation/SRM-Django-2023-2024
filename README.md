@@ -83,3 +83,7 @@ SRM Internship
   - Project Creation and Overview of files in it and execution of project
   - App Creation and Overview of files in it
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/14jmwxqGjPlZixp4TwRRbsAz0u-UD-qkI/view?usp=sharing)
+# Day-19(11-07-2023):
+  - Dynamic URL Mapping with single and n parameters with sample example on each
+  - Template folder creation and accessing of .html file with sample example
+  - Recorded Video Link [Click Here]() 
