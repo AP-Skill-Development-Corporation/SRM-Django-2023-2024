@@ -87,3 +87,8 @@ SRM Internship
   - Dynamic URL Mapping with single and n parameters with sample example on each
   - Template folder creation and accessing of .html file with sample example
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/133Ce3cX0uQbGdDpouddS8lzRhNF3dd7M/view?usp=sharing) 
+# Day-20(12-07-2023):
+  - Template Folder File access
+  - Interface between Controller and template
+  - Internal sytling for temporary access with the help of browser
+  - Recorded Video Link [Click Here]()
