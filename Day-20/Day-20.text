@@ -1,0 +1,63 @@
+Day-19[11-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concept:
+	==================
+		- Dynamic URL Mapping with single and n parmeters
+		- HttpResponse and request
+		- Template folder Creation
+
+	Todays Concept:
+	===============
+		- App
+			- folder
+				- index.html
+		- Another
+			- folder
+				- index.html
+
+		- templates
+			- App
+				- index.html
+			- Another
+				- index.html
+
+		- Views 
+			=> render(self,'App/index.html') => App
+			=> render(self,'Another/index.html') => Another
+
+
+		url => '/prasanna/23/'
+
+			Welcome prasanna
+			Age is: 23
+
+		DTL [Django Template Language]
+		==============================
+			- In html we cant access dynamic data directly
+			- we need to use DTL language to access the data from views
+			- Variable => {{variablename}}
+
+		url => views => templates [.html]
+		url => views => templates => views => templates
+
+		url => views => controller
+		Interface between a controller and template
+
+
+		Form control:
+		=============
+			label
+			input => text,email,number,password,file,radio,checkbox,color,
+			button
+			select
+
+			https://w3schools.com
+	
