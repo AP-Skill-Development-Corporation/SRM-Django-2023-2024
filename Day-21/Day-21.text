@@ -1,0 +1,68 @@
+Day-21[13-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concept:
+	==================
+		- Interface between Controller and Template
+		- From design by using internal style with a inspect element
+
+	Todays Concept:
+	===============
+
+		Form methods:
+		=============
+			- GET
+			- POST
+
+			GET:
+			====
+				- If we are not mentioning any method to a form it will be accessed like a get method
+				- The sensitive data will be displayed in a browser of url
+				- It almost allows 2046 characters 
+				- dtl language
+
+			POST:
+			=====
+				- It will not displays any value in th url of a browser
+				- We need to mention the mthod type as post for senistive information
+				- It allows n number of characters from forms to backends
+				- We need to use dtl language i.e., {% csr_token %}
+				- No users will be modified the content while the form is submitted 
+
+		url => views => template
+		url => views => template => views => another template
+		Interface between controller to another template
+
+
+		Front-end libraries:
+		====================
+			- Bootstrap[3,4,5]
+			- Material-UI
+			- w3.css
+
+		Bootstrap-4
+		===========
+			- Attact the users 
+			- Responsivess of .html files
+
+		Task:
+		=====
+			- Bootstrap-4 Concepts like 
+				=> container
+				=> jumbotron
+				=> grid system
+				=> card
+				=> table
+				=> image
+				=> button
+				=> colors 
+				=> alert 
+
+			W3schools 
