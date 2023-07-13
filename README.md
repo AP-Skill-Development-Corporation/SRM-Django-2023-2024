@@ -91,4 +91,9 @@ SRM Internship
   - Template Folder File access
   - Interface between Controller and template
   - Internal sytling for temporary access with the help of browser
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1pWndwvOpS3SxMhP6x36dYAmd3i6Eol3o/view?usp=sharing)
+# Day-21(13-07-2023):
+  - Interface between Controller to another template
+  - Form Methods with sample example on each
+  - Bootstrap Navbar with sample example
+  - Reccorded Video Link [Click Here](https://drive.google.com/file/d/1hSh3BU-zJJGymGC72G-P4WIZL8_7ahox/view?usp=sharing)
