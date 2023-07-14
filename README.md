@@ -96,4 +96,8 @@ SRM Internship
   - Interface between Controller to another template
   - Form Methods with sample example on each
   - Bootstrap Navbar with sample example
-  - Reccorded Video Link [Click Here](https://drive.google.com/file/d/1hSh3BU-zJJGymGC72G-P4WIZL8_7ahox/view?usp=sharing)
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1hSh3BU-zJJGymGC72G-P4WIZL8_7ahox/view?usp=sharing)
+# Day-22(14-07-2023):
+  - Bootstrap-4 concepts like container,container fluid,jumbotron
+  - Cards, margin, padding, Grid System, buttons, colors and Form controls with sample example on each
+  - Recorded Video Link [Click Here]() 
