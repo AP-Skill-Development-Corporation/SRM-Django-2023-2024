@@ -1,0 +1,85 @@
+Day-22[14-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concept:
+	==================
+		- Interface between controller and another template
+		- Form method [Get and Post]
+		- bootstrap 4 Overview
+
+	Todays Concept:
+	===============
+		- container => occupies margins for left and right
+		- contianer-fluid => it doesnt occupies the margin
+		- Jumbotron => It displays the content with some grey background and the content inside of jumbotron will be displayed at center of the jumbotron
+		- cards
+			=> card-image
+			=> card-title
+			=> card-body
+			=> card-footer 
+		- Grid systems
+			=> 5 device 
+				=> very small => xm
+				=> small => sm
+				=> medium => md
+				=> large => lg
+				=> Extra Large => xl
+		- 1 => 1 row
+		- 1 => 2 => columns
+		- Colors
+			=> primary => dark blue
+			=> info => light blue
+			=> success => green
+			=> warning => yellow
+			=> danger => red
+			=> light => white
+			=> secondary => grey
+			=> dark => balck
+
+	Bootstrap-3:
+	============
+		- div
+			=> col
+		- div
+			=> text-center
+		- div
+			=> bg-primary
+
+	Bootstrap-4:
+	============
+		- div
+			=> col text-center bg-primary
+
+		- Background => bg-colorname
+		- margin
+			=> m => all directions => top,bottom,left and right
+			=> mx => margin-left and margin-right
+			=> my => margin-top and margin-bottom
+			=> ml => margin-left
+			=> mr => margin-right
+			=> points => 1 to 5
+			=> syntax => mx-pointvalue => mx-2
+		- padding
+			=> p => all directions => top,bottom,left and right
+			=> px => padding-left and padding-right
+			=> py => padding-top and padding-bottom
+			=> pl => padding-left
+			=> pr => padding-right
+			=> points => 1 to 5
+			=> syntax => px-pointvalue => px-2
+
+	- Form controls
+		- input => text,email,password etc.,
+		- textarea
+		- select
+
+	- Button
+		=> btn btn-outline-color => bootstrap-4
+		=> btn btn-color => bootstrap-3
