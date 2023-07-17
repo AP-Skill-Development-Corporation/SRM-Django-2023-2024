@@ -1,0 +1,75 @@
+Day-23[17-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Previous Concepts:
+	==================
+		- Bootstrap-4 Components Overview
+		- Cards,Jumbotron,Jumbotron-fluid,container,container-fluid
+		- form controls,margin,padding,Grid systems,colors,button
+
+	Today Concept:
+	==============
+		- Static File Handling => css,js,images,audio or video
+			=> Create Static 
+				=> css -> .css
+				=> js -> .js
+				=> images -> .jpeg, .jpg, .png
+				=> .mp3 or .mp4
+		- Before executing the .html we need to configure the static folder access in .html
+			=> {% load static %}
+			=> css => href = {% static 'css/filename.css' %}
+			=> js => src = {% static 'js/filename.js' %}
+			=> image => src = {% static 'images/filename.extension' %}
+			=> rel="icon" href="{% static 'images/filename.extension' %}"
+		- implementing css,jquer,js we need to follow the preference
+			=> css => .css
+			=> jquery => .js
+			=> js => .js
+
+		Bootstrap-4 Offline Mode:
+		=========================
+			- getbootstrap.com
+			- select the version => 4.6.X
+			- Download 
+				=> version 4.6 => Download
+			- Complied css and Js
+				=> Download
+			- Download bootstrap version in our local machine
+
+			- Need to Extract .zip file
+			- css
+				=> bootstrap.min.css
+				=> pasted in static folder => css => here
+			- js
+				=> bootstrap.min.js
+				=> pasted in static folder => js => here
+
+		To store data then we are prefering the database concptt:
+			- model => Table
+			- class 
+			- objects
+
+		Create table
+			-> Student
+				-> rollnumber
+				-> name
+				-> branch
+				-> year
+
+		For the first step
+			-> we need to create some interface
+			-> stop server
+			-> python manage.py makemigrations
+				=> in migrations 
+					=> 0001_initial.py
+			-> python manage.py migrate
+				=> table structure => mysql
+			-> appname_classname
+				=> demoapp_student
