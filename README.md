@@ -101,3 +101,8 @@ SRM Internship
   - Bootstrap-4 concepts like container,container fluid,jumbotron
   - Cards, margin, padding, Grid System, buttons, colors and Form controls with sample example on each
   - Recorded Video Link [Click Here]() 
+# Day-23(17-07-2023):
+  - Static file Handling with css,js and images
+  - Bootstrap-4 Useage in Offline Mode
+  - Model Creation for Student and completed makemigrations and migrate
+  - Recorded Video Link [Click Here]()
