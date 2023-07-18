@@ -106,3 +106,7 @@ SRM Internship
   - Bootstrap-4 Useage in Offline Mode
   - Model Creation for Student and completed makemigrations and migrate
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1pQhfVU-6Wr5pbDIRsnR0sMxkxcUBwleE/view?usp=sharing)
+# Day-24(18-07-2023):
+  - ORM Queries in Shell
+  - Completed CRUD Operations by using ORM Queries in Shell
+  - Recorded Video Link [Click Here]()
