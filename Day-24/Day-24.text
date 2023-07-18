@@ -1,0 +1,89 @@
+Day-24[18-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concept:
+	==================
+		- Static File handling
+		- Bootstrap-4 Offline mode explanation
+		- Model Creation for Student
+		- Completed Makemigrations and Migrate to a model class
+
+	Todays Concept:
+	===============
+		- CRUD Operations
+		- C => Creating
+		  R => Reading
+		  U => Update
+		  D => Delete
+		- ORM Queries
+			ORM => Object Relational Mapper
+		- Try to open command where the manage.py is existing and then we need to open the shell in a command prompt
+			=> cmd
+			=> python manage.py shell
+			=> py manage.py shell
+			=> manage.py shell
+		- After Opening the shell we need to import the class name to a shell
+			=> from packagename.modulename import classname 
+		- To Access Field names we need to use the command like
+			=> print(classname.__doc__)
+		- To display the field type then we need to type
+			=> print(classname._meta.get_fields())
+
+	ORM Queries:
+	============
+
+	Creating of a record:
+	=====================
+		- cmd
+		- classname
+		- 3 mechanism
+			- save()
+			- create()
+			- bulk_create()
+	
+	Reading of a record:
+	====================
+		- GET
+		- Filter
+		- all
+		- first
+		- last
+		- slicing
+		- in_bulk
+
+		GET:
+		====
+			- It tries to access only unique values
+			- It will displays error if the record is not exisitnng
+			- No use of Loop to access the field values
+
+		Filter:
+		=======
+			- It allows duplicate value access and not exisiting values
+			- We need to prefer loop concept to display the all data exisiting in table
+
+
+	Updating a record:
+	==================
+		- get
+		- filter
+		- all
+
+	Order_by => To sort based on field type
+	ranges => To sort data in ranges
+
+	Deleting a record:
+	==================
+		- get
+		- filter
+		- all
+
+
+

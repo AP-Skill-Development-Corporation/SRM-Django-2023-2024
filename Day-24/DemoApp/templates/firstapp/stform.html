@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Form</title>
+	<style type="text/css">
+		h3 {
+			margin-left: 30%;
+			margin-right:30%;
+			padding:12px;
+			border:2px solid green;
+			text-align:center;
+		}
+		form {
+			margin-left: 30%;
+    		padding: 15px;
+    		border: 2px solid red;
+    		margin-right: 30%;
+    		height: 150px;
+		}
+		input,label {
+			margin-top: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<h3>Student Form</h3>
+	<form method="post">
+		{% csrf_token %}
+		<label>Roll Number</label>
+		<input type="text" name="rn" placeholder="Enter Roll"><br>
+		<label>Student Name</label>
+		<input type="text" name="sn" placeholder="Enter Your Name"><br>
+		<label>Email</label>
+		<input type="email" name="em" placeholder="Enter Email id"><br>
+		<label>Age</label>
+		<input type="number" name="ag" placeholder="Enter Age" max=50 min=18><br>
+		<input type="submit" value="submit">
+	</form>
+</body>
+</html>
