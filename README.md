@@ -109,4 +109,8 @@ SRM Internship
 # Day-24(18-07-2023):
   - ORM Queries in Shell
   - Completed CRUD Operations by using ORM Queries in Shell
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1ykda-KvqugUNpNnmPdkoOgWl6eILOJGc/view?usp=sharing)
+# Day-25(19-07-2023):
+  - Architecture of Django
+  - Completed design of creation and displaying of record with a template by using ORM queries
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1c4UGJ2GRb6L_kwFa0zqcah3UpAMwir9D/view?usp=sharing) 
