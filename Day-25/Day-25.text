@@ -1,0 +1,39 @@
+Day-25[19-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterdays Concept:
+	===================
+		- ORM Queries in Shell
+		- Completed CRUD operations in Shell by using ORM Queries
+		- Completed design for CRUD Operations
+
+	Todays Concept:
+	===============
+		- Architecture of Django
+			=> MVT
+				M => Model
+				V => view 
+				T => Template
+			=> MVC
+				M => Model
+				V => View
+				C => Controller
+		- MVC => 
+				php => Larvel
+				java => springboot
+		
+		- MVT =>
+				python => Django
+		
+		For Loop in DTL
+		===============
+			{% for iterationvariablename in iterator %}
+				{{iterationvariablename}}
+			{% endfor %}
