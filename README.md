@@ -117,4 +117,4 @@ SRM Internship
 # Day-26(20-07-2023):
   - Completed Update and Delete Mechanism in basic Procedure
   - Overview of forms Concept and Created a new model for accessing the forms
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1x_lQ0K00TPD1CyMZk6Pf3FAWoEpsQUyC/view?usp=sharing)
