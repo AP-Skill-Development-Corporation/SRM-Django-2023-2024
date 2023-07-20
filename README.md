@@ -113,4 +113,8 @@ SRM Internship
 # Day-25(19-07-2023):
   - Architecture of Django
   - Completed design of creation and displaying of record with a template by using ORM queries
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1c4UGJ2GRb6L_kwFa0zqcah3UpAMwir9D/view?usp=sharing) 
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1c4UGJ2GRb6L_kwFa0zqcah3UpAMwir9D/view?usp=sharing)
+# Day-26(20-07-2023):
+  - Completed Update and Delete Mechanism in basic Procedure
+  - Overview of forms Concept and Created a new model for accessing the forms
+  - Recorded Video Link [Click Here]()
