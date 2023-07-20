@@ -1,0 +1,52 @@
+Day-26[20-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterdays Concept:
+	===================
+		- Architecture of Django
+		- Difference between MVC and MVT Desing Patterns
+		- DTL Language for iterating the dictionary to access the values from a database
+		- Completed Creation and reading of a single record with a template by using orm query
+
+	Todays Concept:
+	==============
+		=> To delete all records
+			- objectname = classname.objects.all()
+			- objectname.delete()
+		=> Single Record
+			- objectname = classname.objects.get(field=value)
+			- objectname.delete()
+
+		=> forms:
+		=========
+			- model
+			- whats are the fields we need to display we can give preference to display in a template
+			- We can design the field in form class itself
+
+		url => views => template => views => model => views => template
+
+		template => url => views => model => template => views => model
+
+
+		url => views => forms => model => form => views
+
+		form classs fields can be dispayedd in a browser with 3 mechanisms
+			- paragraph
+			- table
+			- unordered list
+
+
+
+
+
+
+
+
+

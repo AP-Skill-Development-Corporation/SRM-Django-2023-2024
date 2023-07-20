@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Register</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<div class="card col-md-4 mx-auto mt-4 shadow-lg border border-warning">
+  <div class="card-body">
+    <h4 class="bg-info p-3 border rounded text-center text-light">Register</h4>
+    <form>
+      <input type="text" name="" placeholder="Username" class="form-control my-2">
+      <input type="email" name="" placeholder="Email id" class="form-control my-2">
+      <input type="password" name="" placeholder="Password" class="form-control my-2">
+      <select class="form-control">
+        <option>-- Select Year --</option>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+      </select>
+      <label>Languages Known</label>
+      <div class="form-check-inline">
+        <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" value="">English
+        <input type="checkbox" class="form-check-input" value="">Telugu
+        </label>
+      </div>
+      <input type="file" name="" class="form-control">
+      <div class="row my-2">
+        <div class="col">
+          <input type="reset" value="Clear" class="form-control btn btn-outline-danger">
+        </div>
+        <div class="col">
+          <input type="submit" value="Submit" class="form-control btn btn-outline-success">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
