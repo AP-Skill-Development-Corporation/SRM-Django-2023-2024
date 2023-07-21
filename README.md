@@ -121,4 +121,4 @@ SRM Internship
 # Day-27(21-07-2023):
   - Widget Concept for New Model class
   - Completed Creation and Updation by using Widgets for a model class
-  - Recorded Video Link [Click Here]()
+  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1KLRh59PChmdsqhWrIhZmdGAk6TTwbYyO/view?usp=sharing)
