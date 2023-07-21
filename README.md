@@ -118,3 +118,7 @@ SRM Internship
   - Completed Update and Delete Mechanism in basic Procedure
   - Overview of forms Concept and Created a new model for accessing the forms
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1x_lQ0K00TPD1CyMZk6Pf3FAWoEpsQUyC/view?usp=sharing)
+# Day-27(21-07-2023):
+  - Widget Concept for New Model class
+  - Completed Creation and Updation by using Widgets for a model class
+  - Recorded Video Link [Click Here]()
