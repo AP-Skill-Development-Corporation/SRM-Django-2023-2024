@@ -1,0 +1,27 @@
+Day-27[21-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concept:
+	===================
+		- Completed Update and Delete in basic procedure
+		- Created forms for new model class i.e., for Employee
+
+	Todays Concept:
+	===============
+		- Widgets:
+			=> to design the form inputs and for preference wee can use forms 
+			=> For each and every field we can use the input class names
+			=> Characters -> TextInput
+			=> Integers -> NumberInput()
+			=> Float -> DecimalInput()
+			=> CharFiel with more Text -> Textarea
+			=> Dropdowns -> Select
+		- https://docs.djangoproject.com/en/4.2/ref/forms/widgets/#:~:text=A%20widget%20is%20Django's%20representation,targeting%20.	
+

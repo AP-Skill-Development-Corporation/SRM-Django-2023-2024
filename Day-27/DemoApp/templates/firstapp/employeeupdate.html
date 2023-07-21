@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+	<title>Employee Update</title>
+</head>
+<body>
+	<div class="container mt-4">
+		<div class="card col-md-5 mx-auto shadow-lg">
+			<div class="card-body">
+				<h4>Employee Update</h4>
+				<form method="post">
+					{% csrf_token %}
+					{% for i in s %}
+						{{i}}
+					{% endfor %}
+					<div class="row">
+						<div class="col">
+							<a href="{% url 'emp' %}" class="btn btn-outline-secondary form-control">Cancel</a>
+						</div>
+						<div class="col">
+							<input type="submit" value="Update" class="btn btn-outline-success form-control">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

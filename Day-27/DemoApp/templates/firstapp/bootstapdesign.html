@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+	<title>Bootstrap</title>
+</head>
+<body>
+	<div class="row m-2 p-3">
+		<div class="col">
+			<div class="card shadow-lg">
+				<div class="card-body">
+					<h4 class="bg-info text-center text-light p-2 border rounded">Login</h4>
+					<form>
+						<input type="text" name="" placeholder="Username" class="form-control my-2">
+						<input type="password" name="" placeholder="password" class="form-control my-2">
+						<div class="row">
+							<div class="col">
+								<input type="reset" value="Clear" class="form-control btn btn-outline-danger">
+							</div>
+							<div class="col">
+								<input type="submit" value="Login" class="form-control btn btn-outline-success">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+		</div>
+		<div class="col">
+			<div class="card shadow-lg">
+				<div class="card-body">
+					<h4 class="bg-success text-center text-light p-2 border rounded">Register</h4>
+					<form>
+						<input type="text" name="" placeholder="Username" class="form-control my-2">
+						<input type="password" name="" placeholder="password" class="form-control my-2">
+						<input type="email" name="" placeholder="Email id" class="form-control my-2">
+						<div class="row">
+							<div class="col">
+								<input type="reset" value="Clear" class="form-control btn btn-outline-danger">
+							</div>
+							<div class="col">
+								<input type="submit" value="Create" class="form-control btn btn-outline-success">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
