@@ -1,0 +1,47 @@
+Day-28[22-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concept:
+	==================
+		- Widget Concept for form class
+		- Completed Creation and Updation of record by using forms concept
+
+	Todays Concept:
+	==============
+		- To create an admin for a project we need to type a command in command propmt
+			-> cmd
+			-> python manage.py createsuperuser
+			-> Username: xxxxx
+			-> Email addreess: xxxxxxxx
+			-> Password: 123
+			-> Password again: 123
+			-> It will try to display the warning
+				=> validations
+			-> y
+			-> Super user is Created Successfully
+		- Browser
+			-> http://127.0.0.1:8000/admin/
+			-> admin username
+			-> password
+			-> It will displays admin panel
+
+	Templates Configuration:
+	========================
+		- Templates
+			=> DIRS : [os.path.join(BASE_DIR,'templates')] => 3.0
+			=> DIRS : [BASE_DIR / 'tempaltes'] => 3.2 or 4.0, 4.2 
+
+
+	Static folder Configuration:
+	============================
+		- At last of settings.py we need to configure this lines
+			=> STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')] => 3.0
+			=> STATICFILES_DIRS = [BASE_DIR / 'static'] => 3.2 or 4.0, 4.2
+	
