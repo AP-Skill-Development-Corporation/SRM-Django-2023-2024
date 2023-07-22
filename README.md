@@ -122,3 +122,7 @@ SRM Internship
   - Widget Concept for New Model class
   - Completed Creation and Updation by using Widgets for a model class
   - Recorded Video Link [Click Here](https://drive.google.com/file/d/1KLRh59PChmdsqhWrIhZmdGAk6TTwbYyO/view?usp=sharing)
+# Day-28(22-07-2023):
+  - SuperUser Creation and Roles of User
+  - Template Blocks for Html files
+  - Recorded Video Link [Click Here]() 
