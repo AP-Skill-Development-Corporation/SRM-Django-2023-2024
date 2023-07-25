@@ -1,0 +1,25 @@
+Day-30[25-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concepts:
+	===================
+		- Activating links in navbar and title names for each page
+		- User Registration by using Existing Model Class
+
+	Todays Concepts:
+	================
+		- User Authentication and Authorization
+		- Email sending
+		- settings.py
+			 EMAIL_USE_TLS = True
+			 EMAIL_HOST = "smtp.gmail.com"
+			 EMAIL_PORT = 587
+			 EMAIL_HOST_USER = ''
+			 EMAIL_HOST_PASSWORD = ''
