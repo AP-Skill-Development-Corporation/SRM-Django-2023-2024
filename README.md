@@ -130,3 +130,7 @@ SRM Internship
   - Activating Navbar Links and displaying titles for each page
   - User Creation with the help of Existing Model Class
   - Recorded Video Link [Click Here]()
+# Day-30(25-07-2023):
+  - User Authentication and Authorization
+  - Mail Sending Concepts
+  - Recorded Video Link [Click Here]()
