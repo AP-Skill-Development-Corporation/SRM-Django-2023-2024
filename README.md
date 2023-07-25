@@ -126,3 +126,7 @@ SRM Internship
   - SuperUser Creation and Roles of User
   - Template Blocks for Html files
   - Recorded Video Link [Click Here]() 
+# Day-29(24-07-2023):
+  - Activating Navbar Links and displaying titles for each page
+  - User Creation with the help of Existing Model Class
+  - Recorded Video Link [Click Here]()
