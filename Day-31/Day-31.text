@@ -1,0 +1,44 @@
+Day-31[26-07-2023]:
+===================
+	Good Afternoon All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concept:
+	==================
+		- User Authentication and Authorization
+		- Mail sending
+
+	Todays Concept:
+	===============
+		- Messages
+			- form django.contrib import messages
+				=> success,warning,info,debug,error
+			- messages.success(self,"something data to display in html")
+		- {% if messages %}
+			{% for i in messages %}
+				<p class="alert alert-{{i.tags}}">{{i}}</p>
+			{% endfor %}
+		  {% endif %}			
+       
+       Mini Project:
+       -------------
+       	- Leave Management System
+       		- Teacher => view,approve,
+       		- Student => applied,view,delete
+		- Admin 
+			- Guest
+			- Role permission
+		- Teacher
+			- Subject
+			- Designation
+			- Experience
+		- Student
+			- Year
+			- Branch
+
+		
