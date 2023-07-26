@@ -134,3 +134,7 @@ SRM Internship
   - User Authentication and Authorization
   - Mail Sending Concepts
   - Recorded Video Link [Click Here]()
+# Day-31(26-07-2023):
+  - Message Concept
+  - Started Mini Project on Leave Management System
+  - Recorded Video Link [Click Here]()
