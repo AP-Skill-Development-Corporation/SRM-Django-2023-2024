@@ -138,3 +138,6 @@ SRM Internship
   - Message Concept
   - Started Mini Project on Leave Management System
   - Recorded Video Link [Click Here]()
+# Day-32(27-07-2023):
+  - Mini Project on Leave Management System completed concepts related to roles and admin user interface
+  - Recorded Video Link [Click Here]()
