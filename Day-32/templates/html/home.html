@@ -1,0 +1,20 @@
+{% extends 'html/base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="jumbotron">
+		<h4>Welcome to this Site.</h4>
+		{% if request.user.role_type == '0' %}
+			{% if request.user.is_superuser %}
+				<h5>Role type is Admin</h5>
+			{% else %}
+				<h5>Role type is Guest</h5>
+			{% endif %}
+		{% elif request.user.role_type == '1' %}
+			<h5>Role type is Student</h5>
+		{% else %}
+			<h5>Role type is Teacher</h5>
+		{% endif %}
+	</div>
+</div>
+{% endblock %}
