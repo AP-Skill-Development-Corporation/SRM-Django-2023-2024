@@ -1,0 +1,73 @@
+Day-34[29-07-2023]:
+===================
+	Good Morning All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Batches:
+		Batches are divided with 5 members in each sir
+
+		Reviews
+			=> First Review
+				=> Abstract or ppt and idea of your project
+			=> Second Review
+				=> Final review with project execution
+
+			Projects:
+				=> Static Projects are not applicable => html,css,frontend library
+				=> Dont include the projects that are related to hardware 
+				=> In each project you need to include concepts related to django that is discussed in internship
+
+		=> 5 Members
+			=> In Drive
+				=> Worklog
+					=> Daywise content
+				=> Project
+					=> code
+					=> Abstract
+					=> Ppt or doc
+
+	Previous Concept:
+	=================
+		- Role Basis Menu displaying for different Users
+
+
+	Todays Concept:
+	===============
+		- Leave Application
+
+			Leavetype => personal,medical
+			startdate
+			enddate
+			reason
+			attachment => ?
+
+			apledate 
+			leavestatus => dropdown
+			tchdesc => 
+		- File upload/image
+			=> pillow
+			=> pip install pillow
+			=> ImageField/FileField
+
+	Foreign Key:
+	============
+		1 Student => n number of leaves
+				  => User => student => 2,cse
+				  => User => tcher => 2,cse
+	User:
+		pfimag = models.ImageFiled(uploads_to='Profiles/',default=,) 
+	TProfile
+		=> tchexpre
+		=> tchdesg
+		=> tchsubject
+		=> tbrcnch => cse
+
+	SProfile
+		=> year
+		=> branch
+
