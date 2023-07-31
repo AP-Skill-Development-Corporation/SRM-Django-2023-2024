@@ -1,0 +1,51 @@
+{% extends 'html/base.html' %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+	<div class="row mx-2">
+		<div class="card col-md-2 shadow-lg m-2">
+			<div class="card-body">
+				<h3>{{request.user.username}}</h3>
+			</div>
+		</div>
+		<div class="card col shadow-lg m-2">
+			<div class="card-body">
+				<h3>Details</h3>
+				<table class="table">
+					<tr>
+						<td>Username</td>
+						<td>{{request.user.username}}</td>
+						<td>Unique Id</td>
+						<td>{{request.user.eid}}</td>
+					</tr>
+					<tr>
+						<td>First Name</td>
+						<td>{{request.user.first_name}}</td>
+						<td>Last Name</td>
+						<td>{{request.user.last_name}}</td>
+					</tr>
+					<tr>
+						<td>Emailid</td>
+						<td>{{request.user.email}}</td>
+						<td>Mobile Number</td>
+						<td>{{request.user.mble}}</td>
+						<td>Role Type</td>
+						<td>
+							{% if request.user.role_type == "1" %}
+								<p class="badge badge-warning">Student</p>
+							{% elif request.user.role_type == "2" %}
+								<p class="badge badge-success">Teacher</p>
+							{% elif request.user.role_type == "0" %}
+								<p class="badge badge-primary">Guest</p>
+							{% elif request.user.is_superuser %}
+								<p class="badge badge-secondary">Admin</p>
+							{% else %}
+							{% endif %}
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
