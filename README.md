@@ -144,3 +144,6 @@ SRM Internship
 # Day-33(28-07-2023):
   - CRUD Operations for Admin Panel
   - Recorded Video Link [Click Here]()
+# Day-34(29-07-2023):
+  - Main Menus for Different Roles
+  - Recorded Video Link [Click Here]()
