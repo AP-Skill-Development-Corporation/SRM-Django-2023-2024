@@ -147,3 +147,7 @@ SRM Internship
 # Day-34(29-07-2023):
   - Main Menus for Different Roles
   - Recorded Video Link [Click Here]()
+# Day-35(31-07-2023):
+  - Model Creation Extra Fields for Teacher Profile and Student Profile
+  - File Handling
+  - Recorded Video Link [Click Here]()
