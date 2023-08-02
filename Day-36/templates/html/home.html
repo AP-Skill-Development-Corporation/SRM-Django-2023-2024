@@ -1,0 +1,97 @@
+{% extends 'html/base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="jumbotron">
+		<h4>Welcome to this Site.</h4>
+		{% if request.user.role_type == '0' %}
+			{% if request.user.is_superuser %}
+				<h5>Role type is Admin</h5>
+			{% else %}
+				<h5>Role type is Guest</h5>
+			{% endif %}
+		{% elif request.user.role_type == '1' %}
+			<h5>Role type is Student</h5>
+		{% else %}
+			<h5>Role type is Teacher</h5>
+		{% endif %}
+	</div>
+</div>
+<div class="container-fluid mt-2">
+	{% if request.user.role_type == "1" %}
+		<div class="row">
+			{% for i in st %}
+			<div class="col-md-3">
+				<div class="card mx-2 shadow-lg border-{% if i.leavestatus == 'g' %}warning{% elif i.leavestatus == 'a' %}success{% else %}danger{% endif %}">
+					<div class="card-body">
+						<div class="card-title">
+							<h5>{{i.leavetype}}</h5>
+						</div>
+						<h6>Applied On {{i.apldate}}</h6>
+						<h6>Start Date {{i.startdate}}</h6>
+						<h6>End Date {{i.enddate}}</h6>
+					</div>
+					<div class="card-footer bg-light">
+						<div class="row">
+							<div class="col">
+								<a href="" class="btn btn-outline-info form-control">View More</a>
+							</div>
+							<div class="col">
+								<a href="" class="btn btn-{% if i.leavestatus == 'g' %}warning{% elif i.leavestatus == 'a' %}success{% else %}danger{% endif %} form-control">
+								{% if i.leavestatus == 'g' %}
+									Pending
+								{% elif i.leavestatus == "a" %}
+									Approved
+								{% else %}
+									Declined
+								{% endif %}
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	{% elif request.user.role_type == "2" %}
+	<div class="row">
+		{% for j in tc %}
+		<div class="col-md-3">
+			<div class="card mx-2 shadow-lg border-primary">
+				<img class="card-img-top" src="{{j.2.url}}" alt="Card image" height="180px">
+				<div class="card-body">
+					<div class="card-title">
+						<div class="row">
+							<div class="col">
+								<h5>{{j.0}}</h5>
+							</div>
+							<div class="col">
+								<h5>Year: {{j.1}}</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<h6>Applied: {{j.3}}</h6>
+							</div>
+							<div class="col">
+								<h6>Pending: {{j.4}}</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<h6>Approved: {{j.5}}</h6>
+							</div>
+							<div class="col">
+								<h6>Declined: {{j.6}}</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	{% else %}
+	{% endif %}
+</div>
+{% endblock %}

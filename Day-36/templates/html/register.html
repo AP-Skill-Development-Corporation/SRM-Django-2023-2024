@@ -1,0 +1,26 @@
+{% extends 'html/base.html' %}
+{% block title %}Register{% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="card col-md-5 mx-auto shadow-lg">
+		<div class="card-body">
+			<h4>Register Page</h4>
+			<form method="post" novalidate>
+				{% csrf_token %}
+				{% for i in g %}
+					{{i}}
+					<p class="text-danger" style="font-size:13px;margin:0px;padding:0px">{{i.errors|striptags}}</p>
+				{% endfor %}
+				<div class="row my-2">
+					<div class="col">
+						<a href="{% url 'lg' %}" class="btn btn-outline-info form-control">Existing User?</a>
+					</div>
+					<div class="col">
+						<input type="submit" value="Subscribe" class="btn btn-outline-primary col">
+					</div>
+				</div>
+			</form>	
+		</div>
+	</div>
+</div>
+{% endblock %}

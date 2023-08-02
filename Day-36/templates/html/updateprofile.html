@@ -1,0 +1,35 @@
+{% extends 'html/base.html' %}
+{% block title %}Update Profile{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+	<div class="card col-md-5 mx-auto shadow-lg">
+		<div class="card-body">
+			<h3>Update Profile</h3>
+			<form method="post" enctype="multipart/form-data">
+				{% csrf_token %}
+				{% for i in e %}
+					{{i}}
+				{% endfor %}
+				{% if request.user.role_type == "2" %}
+					{% for j in t %}
+						{{j}}
+					{% endfor %}
+				{% elif request.user.role_type == "1" %}
+					{% for c in a %}
+						{{c}}
+					{% endfor %}
+				{% else %}
+				{% endif %}
+				<div class="row my-2">
+					<div class="col">
+						<a href="{% url 'pf' %}" class="btn btn-outline-info form-control">Back to Profile</a>
+					</div>
+					<div class="col">
+						<input type="submit" value="Update" class="btn btn-outline-success form-control">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+Day-36[01-08-2023]:
+===================
+	Good Morning All...
+	
+	Try to rename in given format i.e.,
+		Rollnumber-name
+
+		-> If you are not renaming in given format your attendance will be considered as absent
+		-> In format dont use any special characters except '-' and dont follow your own format while joining the session.
+
+	Yesterday Concept:
+	==================
+		- Model Creation for Teacher,Student and Leaves
+		- Completed Update profile for Teacher Role
+
+	Todays Concept:
+	===============
+		- Completed Updation on Student Profile
+		- Completed CRUD Operations on Leaves in different Roles like teacher and Student
+

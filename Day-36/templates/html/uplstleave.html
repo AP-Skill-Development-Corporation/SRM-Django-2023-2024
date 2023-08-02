@@ -1,0 +1,25 @@
+{% extends 'html/base.html' %}
+{% block title %}Update Leaves{% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="card col-md-5 mx-auto shadow-lg">
+		<div class="card-body">
+			<h4>Update Leaves</h4>
+			<form method="post">
+				{% csrf_token %}
+				{% for i in c %}
+					{{i}}
+				{% endfor %}
+				<div class="row">
+					<div class="col">
+						<a href="{% url 'lvs' %}" class="btn btn-outline-info form-control">Back</a>
+					</div>
+					<div class="col">
+						<input type="submit" value="Update" class="btn btn-outline-success form-control">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}

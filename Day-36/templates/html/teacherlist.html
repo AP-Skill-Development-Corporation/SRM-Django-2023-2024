@@ -1,0 +1,47 @@
+{% extends 'html/base.html' %}
+{% block title %}Leave Requests{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+	<div class="card col-md-5 mx-auto shadow-lg">
+		<div class="card-body">
+			<h4>Leaves Requests</h4>
+			<table class="table">
+				<tr>
+					<th>Sno</th>
+					<th>Student Name</th>
+					<th>Year</th>
+					<th>Leave Type</th>
+					<th>Applied Date</th>
+					<th>Status</th>
+					<th>Actions</th>
+				</tr>
+				{% for i in t %}
+				<tr>
+					<td>{{forloop.counter}}</td>
+					<td>{{i.3}}</td>
+					<td>{{i.4}}</td>
+					<td>{{i.0}}</td>
+					<td>{{i.1}}</td>
+					<td>
+						{% if i.2 == 'g' %}
+							<p class="badge badge-warning">Pending</p>
+						{% elif i.2 == 'a' %}
+							<p class="badge badge-success">Approved</p>
+						{% else %}
+							<p class="badge badge-danger">Declined</p>
+						{% endif %}
+					</td>
+					<td>
+						<div class="row">
+							<div class="col">
+								<a href="{% url 'uplv' i.5 %}" class="btn btn-outline-info form-control">Edit</a>
+							</div>
+						</div>
+					</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+</div>
+{% endblock %}

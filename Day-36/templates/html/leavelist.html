@@ -1,0 +1,73 @@
+{% extends 'html/base.html' %}
+{% block title %}List of Leaves{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+	<div class="row mx-2">
+		<div class="card col-md-3 shadow-lg m-2 h-100">
+			<div class="card-body">
+				<h4>Apply Leave</h4>
+				<form method="post" enctype="multipart/form-data">
+					{% csrf_token %}
+					{% for i in z %}
+						{{i}}
+					{% endfor %}
+					<div class="row my-2">
+						<div class="col">
+							<input type="reset" value="Clear" class="btn btn-outline-danger form-control">
+						</div>
+						<div class="col">
+							<input type="submit" value="Apply Leave" class="btn btn-outline-success form-control">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="card col-md shadow-lg h-100 m-2">
+			<div class="card-body">
+				<h4>List of Leaves</h4>
+				<table class="table">
+					<tr>
+						<th>Sno</th>
+						<th>Leave Type</th>
+						<th>Start Date</th>
+						<th>End Date</th>
+						<th>Applied on</th>
+						<th>Status</th>
+						<th>Actions</th>
+					</tr>
+					{% for i in h %}
+					<tr>
+						<td>{{forloop.counter}}</td>
+						<td>{{i.leavetype}}</td>
+						<td>{{i.startdate}}</td>
+						<td>{{i.enddate}}</td>
+						<td>{{i.apldate}}</td>
+						<td>
+							{% if i.leavestatus == "g" %}
+								<p class="badge badge-warning">Pending</p>
+							{% elif i.leavestatus == "a" %}
+								<p class="badge badge-success">Approved</p>
+							{% else %}
+								<p class="badge badge-danger">Declined</p>
+							{% endif %}
+						</td>
+						<td>
+							{% if i.leavestatus != 'a' and i.leavestatus != 'd' %}
+							<div class="row">
+								<div class="col">
+									 <a href="{% url 'upls' i.id %}" class="btn btn-outline-info form-control">Edit</a>
+								</div>
+								<div class="col">
+									<a href="{% url 'dlu' i.id %}" class="btn btn-outline-danger form-control">Delete</a>
+								</div>
+							</div>
+							{% endif %}
+						</td>
+					</tr>
+					{% endfor %}
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

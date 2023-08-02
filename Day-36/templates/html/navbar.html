@@ -1,0 +1,83 @@
+{% load static %}
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="{% url 'hm' %}">
+  <img src="{% static 'images/icons/logo.png' %}" class="rounded-circle" width="30px" height="30px"></a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      {% if not user.is_authenticated %}
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/' %}active{% endif %}" href="{% url 'hm' %}">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/abt/' %}active{% endif %}" href="{% url 'ab' %}">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/cnt/' %}active{% endif %}" href="{% url 'ct' %}">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/reg/' %}active{% endif %}" href="{% url 'rg' %}">Register</a>
+      </li>
+      {% else %}
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/' %}active{% endif %}" href="{% url 'hm' %}">Home</a>
+      </li>
+      {% if request.user.role_type == "0" and not request.user.is_superuser%}
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'hm' %}">Access Denied</a>
+      </li>
+      {% elif request.user.role_type == "1" and not request.user.is_superuser and request.user.stprofile.sstatus == 1 %}
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/lvst/' %}active{% endif %}" href="{% url 'lvs' %}">Leaves</a>
+      </li>
+      {% elif request.user.role_type == "2" and not request.user.is_superuser and request.user.tchprofile.tstatus == 1 %}
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/tclvlst/' %}active{% endif %}" href="{% url 'tclst' %}">List of Leaves</a>
+      </li>
+      {% else %}
+      {% endif %}
+        {% if request.user.is_superuser %}
+          <li class="nav-item">
+            <a class="nav-link {% if request.path == '/usrlst/' %}active{% endif %}" href="{% url 'usrl' %}">User List</a>
+          </li>
+        {% endif %}
+      {% endif %}
+    </ul>
+    <ul class="navbar-nav ml-auto" style="margin-right:120px">
+      {% if not user.is_authenticated %}
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/lgn/' %}active{% endif %}" href="{% url 'lg' %}">Login</a>
+      </li>
+      {% else %}
+      <div class="dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+          Welcome {% if user.is_superuser %}
+                    Admin :: {{request.user.username}}
+                  {% else %}
+                    {% if request.user.role_type == '0' %}
+                      Guest :: {{request.user.username}}
+                    {% elif request.user.role_type == '1' %}
+                      Student :: {{request.user.username}}
+                    {% elif request.user.role_type == '2' %}
+                      Teacher :: {{request.user.username}}
+                    {% else %}
+                    {% endif %}
+                  {% endif %} 
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item {% if request.path == '/pfle/' %}active{% endif %}" href="{% url 'pf' %}">Profile</a>
+          <a class="dropdown-item {% if request.path == '/chge/' %}active{% endif %}" href="{% url 'cge' %}">Change Password</a>
+          <a class="dropdown-item {% if request.path == '/lgot/' %}active{% endif %}" href="{% url 'lgt' %}">Logout</a>
+        </div>
+      </div>
+      {% endif %}
+    </ul>
+  </div>
+</nav>

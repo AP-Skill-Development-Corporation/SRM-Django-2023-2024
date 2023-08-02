@@ -1,0 +1,83 @@
+{% extends 'html/base.html' %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+	<div class="row mx-2">
+		<div class="card col-md-2 col-sm-3 col-xm-3 shadow-lg m-2 h-100">
+			<div class="card-body text-center">
+				<img src="{{request.user.pfimg.url}}" class="rounded-circle" height="120px" width="90%">
+				<h3>{{request.user.username}}</h3>
+			</div>
+		</div>
+		<div class="card col-md col-sm col-xm shadow-lg m-2">
+			<div class="card-body">
+				<div class="row my-2">
+					<div class="col">
+						<h3>Details</h3>
+					</div>
+					<div class="col">
+						<a href="{% url 'upf' %}" class="btn btn-outline-info float-right">Update Profile</a>
+					</div>
+				</div>
+				
+				<table class="table table-responsive">
+					<tr>
+						<td>Username</td>
+						<td>{{request.user.username}}</td>
+						<td>Unique Id</td>
+						<td>{{request.user.eid}}</td>
+					</tr>
+					<tr>
+						<td>First Name</td>
+						<td>{{request.user.first_name}}</td>
+						<td>Last Name</td>
+						<td>{{request.user.last_name}}</td>
+					</tr>
+					<tr>
+						<td>Emailid</td>
+						<td>{{request.user.email}}</td>
+						<td>Mobile Number</td>
+						<td>{{request.user.mble}}</td>
+					</tr>
+					<tr>
+						<td>Role Type</td>
+						<td>
+							{% if request.user.role_type == "1" %}
+								<p class="badge badge-warning">Student</p>
+							{% elif request.user.role_type == "2" %}
+								<p class="badge badge-success">Teacher</p>
+							{% elif request.user.role_type == "0" %}
+								<p class="badge badge-primary">Guest</p>
+							{% elif request.user.is_superuser %}
+								<p class="badge badge-secondary">Admin</p>
+							{% else %}
+							{% endif %}
+						</td>
+					</tr>
+					{% if request.user.role_type == "2" and request.user.tchprofile.tstatus == 1 %}
+					<tr>
+						<td>Subject</td>
+						<td>{{request.user.tchprofile.tchsubject}}</td>
+						<td>Experience</td>
+						<td>{{request.user.tchprofile.tchexpr}}</td>
+					</tr>
+					<tr>
+						<td>Branch</td>
+						<td>{{request.user.tchprofile.tchbrnch}}</td>
+						<td>Designation</td>
+						<td>{{request.user.tchprofile.tchdesg}}</td>
+					</tr>
+					{% elif request.user.role_type == "1" and request.user.stprofile.sstatus == 1 %}
+					<tr>
+						<td>Branch</td>
+						<td>{{request.user.stprofile.sbranch}}</td>
+						<td>Year</td>
+						<td>{{request.user.stprofile.syear}}</td>
+					</tr>
+					{% endif %}
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
