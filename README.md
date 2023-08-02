@@ -151,3 +151,7 @@ SRM Internship
   - Model Creation Extra Fields for Teacher Profile and Student Profile
   - File Handling
   - Recorded Video Link [Click Here]()
+# Day-36(01-08-2023):
+  - Completed Student Profile Update
+  - Completed CRUD Operations for Leaves using different roles like Teacher and Student
+  - Recorded Video Link [Click Here]()
