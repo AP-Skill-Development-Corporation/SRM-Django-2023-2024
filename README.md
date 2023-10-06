@@ -82,46 +82,46 @@ SRM Internship
   - Django installation,Version check
   - Project Creation and Overview of files in it and execution of project
   - App Creation and Overview of files in it
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/14jmwxqGjPlZixp4TwRRbsAz0u-UD-qkI/view?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-19(11-07-2023):
   - Dynamic URL Mapping with single and n parameters with sample example on each
   - Template folder creation and accessing of .html file with sample example
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/133Ce3cX0uQbGdDpouddS8lzRhNF3dd7M/view?usp=sharing) 
+  - Recorded Video Link [Click Here]() 
 # Day-20(12-07-2023):
   - Template Folder File access
   - Interface between Controller and template
   - Internal sytling for temporary access with the help of browser
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1pWndwvOpS3SxMhP6x36dYAmd3i6Eol3o/view?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-21(13-07-2023):
   - Interface between Controller to another template
   - Form Methods with sample example on each
   - Bootstrap Navbar with sample example
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1hSh3BU-zJJGymGC72G-P4WIZL8_7ahox/view?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-22(14-07-2023):
   - Bootstrap-4 concepts like container,container fluid,jumbotron
   - Cards, margin, padding, Grid System, buttons, colors and Form controls with sample example on each
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1l9Wtr3wVbxVi7uijokDnCLGdupV-NBdu/view?usp=sharing) 
+  - Recorded Video Link [Click Here]() 
 # Day-23(17-07-2023):
   - Static file Handling with css,js and images
   - Bootstrap-4 Useage in Offline Mode
   - Model Creation for Student and completed makemigrations and migrate
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1pQhfVU-6Wr5pbDIRsnR0sMxkxcUBwleE/view?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-24(18-07-2023):
   - ORM Queries in Shell
   - Completed CRUD Operations by using ORM Queries in Shell
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1ykda-KvqugUNpNnmPdkoOgWl6eILOJGc/view?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-25(19-07-2023):
   - Architecture of Django
   - Completed design of creation and displaying of record with a template by using ORM queries
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1c4UGJ2GRb6L_kwFa0zqcah3UpAMwir9D/view?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-26(20-07-2023):
   - Completed Update and Delete Mechanism in basic Procedure
   - Overview of forms Concept and Created a new model for accessing the forms
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1x_lQ0K00TPD1CyMZk6Pf3FAWoEpsQUyC/view?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-27(21-07-2023):
   - Widget Concept for New Model class
   - Completed Creation and Updation by using Widgets for a model class
-  - Recorded Video Link [Click Here](https://drive.google.com/file/d/1KLRh59PChmdsqhWrIhZmdGAk6TTwbYyO/view?usp=sharing)
+  - Recorded Video Link [Click Here]()
 # Day-28(22-07-2023):
   - SuperUser Creation and Roles of User
   - Template Blocks for Html files
